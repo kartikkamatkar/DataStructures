@@ -27,12 +27,12 @@ public class WaterContainer
         while(l<r){
             int currentsum = Math.min(height[l],height[r]) * (r-l);
             sum = Math.max(currentsum,sum);
-            if(l < r)
+            if(height[l] < height[r])
                 l++;
             else
                 r--;
 
         }
-        System.out.println();
+        System.out.println(sum);
     }
 }
