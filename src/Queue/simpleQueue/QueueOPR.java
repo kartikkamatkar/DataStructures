@@ -1,4 +1,4 @@
-package Queue;
+package Queue.simpleQueue;
 
 import java.util.Scanner;
 
