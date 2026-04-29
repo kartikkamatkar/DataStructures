@@ -11,10 +11,34 @@ class Stack{
         rear1=-1;
         rear2=-1;
     }
+    void enqueue(){
+
+    }
+    void dequeue(){
+
+    }
+    void push(int var){
+
+    }
+    void pop(){
+
+    }
+    void display(){
+
+    }
 }
 public class StackusingQueue
 {
     public static void main(String[] args) {
+     Stack s=new Stack(5,6);
+     s.pop();
+     s.push(20);
+     s.push(50);
+     s.push(44);
+     s.display();
+     s.pop();
+     s.display();
+
 
     }
 }
