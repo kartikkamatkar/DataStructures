@@ -15,12 +15,24 @@ public class SortArraybyParity
     public static void main(String[] args) {
         int nums[]={4,2,3,1};
         int l =0;
-        int r = nums.length;
+        int r = nums.length-1;
         while(l<r){
             if(nums[l]%2==0){
                 l++;
             }
-            else
+            else if(r%2!=0){
+                r--;
+            }
+            else{
+                int temp =nums[l];
+                nums[l]=nums[r];
+                nums[r]=temp;
+                l++;
+                r--;
+            }
+        }
+        for(int i =0;i<nums.length;i++){
+            System.out.print(" "+nums[i]);
         }
     }
 }
