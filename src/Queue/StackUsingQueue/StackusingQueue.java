@@ -11,7 +11,7 @@ class Stack{
         rear1=-1;
         rear2=-1;
     }
-    void enqueue(){
+    void enqueue(int var ){
 
     }
     void dequeue(){
