@@ -17,6 +17,11 @@ public class ReverseStringII {
     public static void main(String[] args) {
         String s ="abcdefg";//output :"bacdfeg"
         int k =2;
+        for(int i =0;i<s.length();i+=k*i){
+            int l =0;
+            int r =Math.min(k+i-1,s.length()-1);
+            while(l<r)
+        }
 
     }
 }
