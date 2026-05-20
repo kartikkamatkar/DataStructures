@@ -33,7 +33,7 @@ public class Problem918
     }
     public static void main(String[] args) {
         int arr[] = {1, -2, 3, -2};
-        int res = kedanes(arr);
+        int res =kedanes(arr);
         System.out.print(res);
     }
 }
