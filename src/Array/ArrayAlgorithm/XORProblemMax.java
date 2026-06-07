@@ -1,4 +1,4 @@
-package Array;
+package Array.ArrayAlgorithm;
 
 public class XORProblemMax
 {
