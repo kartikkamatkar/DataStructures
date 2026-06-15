@@ -3,7 +3,7 @@ package Array.ArrayAlgorithm;
 public class BuyAndSell
 {
     static int buyandsell(int []nums){
-        int max=Integer.MIN_VALUE;
+        int max=0;
         int min=Integer.MAX_VALUE;
         for(int i :nums){
             if(i<min){
@@ -17,7 +17,7 @@ public class BuyAndSell
         return max;
 }
     public static void main(String[] args) {
-        int nums[]={7,1,5,3,6,4};
+        int nums[]={7,6,4,3,1};
         System.out.println(buyandsell(nums));
     }
 }
