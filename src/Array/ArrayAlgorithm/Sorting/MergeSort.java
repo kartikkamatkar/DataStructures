@@ -46,6 +46,7 @@ public class MergeSort
     }
     public static void main(String[] args) {
         int arr[]={7,2,5,1,6,3};
+
         mergeSort(arr,0,arr.length-1);
         pritnarr(arr);
     }
