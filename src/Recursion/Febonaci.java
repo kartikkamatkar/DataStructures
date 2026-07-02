@@ -15,7 +15,7 @@ public class Febonaci
         return c;
     }
     public static void main(String[] args) {
-        int n=4;
+        int n=5;
         int res =febonaci(n);
         System.out.println(res);
     }
