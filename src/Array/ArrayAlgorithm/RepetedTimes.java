@@ -1,4 +1,4 @@
-package Array.ArrayAlgorithm.Sorting;
+package Array.ArrayAlgorithm;
 
 import java.util.HashSet;
 
